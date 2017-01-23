@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+
+body {
+    background-image: url('background.png');
+    background-size: 60% auto;
+    background-repeat: no-repeat;
+}
+
+div div kbd {
+  display: block;
+  margin: 30% auto;
+}
+
+.buttons {
+    position: fixed;
+    bottom: 35%;
+}
+
+#textbox {
+  position: fixed;
+  left: 60%;
+  bottom: 25%;
+  width: 400px;
+  height: 400px;
+  font-family: 'Arapey', serif;
+  overflow: scroll;
+}
+
+#play:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+#pause:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+#stop:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+#next:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+#previous:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+
+#play {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+#pause {
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+#stop {
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+#next {
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+#previous {
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+#info {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#info:hover {
+  background-color: red;
+  color: white;
+}
+
+#shuffle {
+  border: 2px solid black;
+  height: 50px;
+  width: 50px;
+}
+
+#shuffle img {
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 8px;
+}
